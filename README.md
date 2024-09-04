@@ -19,7 +19,7 @@ git clone https://github.com/yanix-science/PARCIAL.git
 ```
 2. Navega al Directorio del Proyecto
 ```
-cd PARCIAL/AWK
+cd PARCIAL/Parcial/'AWK (Copiar)'
 ```
 4. Asegúrate de que el Script es Ejecutable
 ```
@@ -28,6 +28,15 @@ chmod +x token.awk
 5. Si el script tiene permisos de ejecución, también puedes ejecutarlo directamente:
 ```
 ./token.awk token.txt
+```
+Salida (Según entrada .txt):
+```
+TOKEN: SUMA -> +
+TOKEN: INCR -> ++
+TOKEN: ENTERO -> 123
+TOKEN: REAL -> 45.67
+TOKEN: ENTERO -> 890
+TOKEN: REAL -> 1.23
 ```
 
 # 2. Expresión Lambda con Flex
@@ -44,21 +53,28 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu
 git clone https://github.com/yanix-science/PARCIAL.git
 ```
 ```
+cd PARCIAL/Parcial/expresionlambdapylex
+```
+```
 ls
-```
-```
-cd expresionlambdapylex
 ```
 3. Generar el analizador léxico
 Utiliza Flex para generar el archivo (`lex.yy.c`) a partir del archivo (`lambda.l`):
 ```
 flex lambda.l
+gcc lex.yy.c -o lambda
+chmod +x lambda
+
 ```
 5. Compilar el código
 Compila el archivo generado por Flex usando GCC. Esto creará un ejecutable llamado lambda
 6. Ejecutar el programa
 ```
 ./lambda archivo.txt
+```
+Salida:
+```
+ACEPTA
 ```
 
 # 3. Programa en C
@@ -72,6 +88,19 @@ Este proyecto contiene un programa en C que cuenta cuántas veces aparece una pa
 ### Requisitos
 
 - **GCC** (GNU Compiler Collection): Asegúrate de tener `gcc` instalado en tu sistema para compilar el programa.
+- 
+# Instrucciones para Ejecutar
+1. Clona el Repositorio
+```
+git clone https://github.com/yanix-science/PARCIAL.git
+```
+2. Navega al Directorio del Proyecto
+```
+cd PARCIAL/Parcial/programac
+```
+```
+ls
+```
 
 ### Archivos del Proyecto
 
@@ -108,8 +137,13 @@ salida:
     Agrega el texto deseado y guarda el archivo.
     Reemplaza texto.txt con el nombre de tu archivo de texto y arroz con la palabra clave que deseas buscar.
 ```
+# 4. Comparativas enguaje de programación compilado y un lenguaje de programación interpretado:
+```
+Se tiene fuera de la carpeta un archivo ( `Comparación de Rendimiento Lenguaje.txt`)
+```
+Este formato proporciona una visión básica y clara de las diferencias entre lenguajes compilados e interpretados
 
-# 4. Calculadora Trigonometria
+# 5. Calculadora Trigonometria
 Este proyecto es una calculadora de funciones trigonométricas implementada en ANTLR. El programa lee expresiones desde un archivo de texto y calcula las funciones trigonométricas especificadas.
 
 ## Instrucciones para Compilar y Ejecutar
@@ -131,7 +165,7 @@ git clone https://github.com/yanix-science/PARCIAL.git
 ls
 ```
 ```
-cd CalculadoraTrigo
+cd PARCIAL/Parcial/CalculadoraTrigo
 ```
 
 3. Generar el código fuente desde la gramática ANTLR:
@@ -145,6 +179,15 @@ javac *.java
 ```
 java TrigCalcMain
 ```
+salida:
+```
+1,0
+1,0
+-1,0
+0,7
+```
+
+
 
 
 
