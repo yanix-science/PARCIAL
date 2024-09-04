@@ -1,0 +1,28 @@
+Comparación de Rendimiento: Lenguaje Compilado vs. Interpretado
+
+Definición:
+
+Lenguaje Compilado: El código se traduce a lenguaje máquina antes de ejecutarse. Ejemplo: C.
+Lenguaje Interpretado: El código se traduce línea por línea durante la ejecución. Ejemplo: Python.
+Tiempo de Ejecución:
+
+Compilado: Más rápido, porque ya está traducido a lenguaje máquina.
+Interpretado: Más lento, porque se traduce sobre la marcha.
+Uso de Recursos:
+
+Compilado: Eficiente, usa menos memoria y CPU.
+Interpretado: Menos eficiente, puede usar más recursos debido al intérprete.
+Portabilidad:
+
+Compilado: Menos portable, depende de la máquina donde se compiló.
+Interpretado: Más portable, el mismo código puede ejecutarse en diferentes sistemas.
+Ejemplo Práctico:
+
+Implementa un simple "Hola Mundo" en C (compilado) y Python (interpretado).
+Compila y ejecuta el programa en C, y ejecuta directamente el script en Python.
+Observa la diferencia en el tiempo de ejecución.
+
+Conclusión
+Los lenguajes compilados son más rápidos y eficientes, ideales para aplicaciones donde el rendimiento es crucial.
+
+Los lenguajes interpretados son más flexibles y fáciles de usar, ideales para desarrollo rápido y multiplataforma.
