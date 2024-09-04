@@ -1,0 +1,12 @@
+# Proyecto AWK
+
+Este proyecto contiene un script AWK (`token.awk`) que procesa un archivo de entrada (`token.txt`). A continuación se detallan las instrucciones para ejecutar el script en un sistema basado en Linux.
+
+## Requisitos
+
+- **AWK**: Asegúrate de tener AWK instalado en tu sistema. En Ubuntu, puedes instalarlo con el siguiente comando:
+  
+  ```bash
+  sudo apt update
+  sudo apt install gawk
+
